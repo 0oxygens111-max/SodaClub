@@ -1,10 +1,3 @@
-// Loading Screen
-window.addEventListener("load", () => {
-  const loadingScreen = document.getElementById("loading-screen");
-  setTimeout(() => {
-    loadingScreen.classList.add("hidden");
-  }, 1500); // 1.5 detik sebelum hilang
-});
 const hamburger = document.querySelector('.hamburger');
 const navLinks = document.querySelector('.nav-links');
 
@@ -28,3 +21,4 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     });
   });
 });
+
