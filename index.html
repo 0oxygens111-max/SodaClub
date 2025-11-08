@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SodaClub</title>
+  <link rel="icon" type="image/png" href="assets/SodaClub.png">
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Loading Screen -->
+<div id="loading-screen">
+  <div class="loading-content">
+    <div class="loader"></div>
+    <p>Please Wait...</p>
+  </div>
+</div>
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <span class="red">Soda</span><span class="white">Club.</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+<section id="home" class="hero">
+  <div class="hero-overlay">
+    <h1 class="logo-anim">
+  <span class="red">Soda</span><span class="white">Club.</span>
+  <span class="underline"></span>
+</h1>
+
+    <p class="tagline-anim">Nikmati Hari Yang Indah Bersama Soda Yang Menyejukan Dahagah!</p>
+    <a href="#products" class="btn">Lihat Produk</a>   <a href="#about" class="btn">Tentang Kami</a>
+  </div>
+</section>
+<section id="about" class="about-us">
+  <div class="about-container">
+    <!-- Kiri: Judul + Deskripsi -->
+    <div class="about-text">
+      <h1>
+        <span class="red">About</span> <span class="white">Us</span>
+      </h1>
+      <h5>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </h5>
+    </div>
+
+    <!-- Kanan: Gambar -->
+    <div class="about-image">
+      <img src="assets/SodaImageAboutus.avif" alt="Soda" />
+    </div>
+  </div>
+</section>
+<section id="products" class="products">
+  <div class="products-container">
+    <h1 class="products-title">
+      <span class="red">Produk</span> <span class="white">Kami</span>
+    </h1>
+
+    <div class="products-grid">
+      <!-- Produk 1 -->
+      <div class="product-card">
+        <img src="assets/Coca Cola.jpg" alt="Soda 1" />
+        <h3>Coca Cola</h3>
+        <div class="product-buttons">
+          <button class="btn-view">Lihat Produk</button>
+          <button class="btn-cart">Masukkan Keranjang</button>
+        </div>
+      </div>
+
+      <!-- Produk 2 -->
+      <div class="product-card">
+        <img src="assets/Pepsi.jpg" alt="Soda 2" />
+        <h3>Pepsi</h3>
+        <div class="product-buttons">
+          <button class="btn-view">Lihat Produk</button>
+          <button class="btn-cart">Masukkan Keranjang</button>
+        </div>
+      </div>
+
+      <!-- Produk 3 -->
+      <div class="product-card">
+        <img src="assets/Sprite.jpg" alt="Soda 3" />
+        <h3>Sprite</h3>
+        <div class="product-buttons">
+          <button class="btn-view">Lihat Produk</button>
+          <button class="btn-cart">Masukkan Keranjang</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-container">
+    <!-- Social Media -->
+    <div class="footer-social">
+      <a href="https://facebook.com" target="_blank"><i data-feather="facebook"></i></a>
+      <a href="https://twitter.com" target="_blank"><i data-feather="twitter"></i></a>
+      <a href="https://instagram.com" target="_blank"><i data-feather="instagram"></i></a>
+    </div>
+
+    <!-- Kontak -->
+    <div class="footer-contact">
+      <p><span class="red">Email:</span> 0oxygens111@gmail.com</p>
+      <p><span class="red">WhatsApp:</span> +62 xxx-xxxx-xxxx</p>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copy">
+      <p>&copy; 2025 <span class="red">SodaClub.</span> All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Feather Icons Script -->
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+  feather.replace()
+</script>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
